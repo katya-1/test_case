@@ -1,0 +1,15 @@
+﻿№,Name,Precondition,Steps,Expected Result
+Test Case 1,Checking redirection to main page by click on the logo,Open https://swisstime.by/catalog/,"1.Click on the logo “TISSOT”, 2. Checking section advertising banner appeared",Section  advertising banner appeared
+Test Case 2,Checking redirection to the contact page,,1.Click on the Сontact Icon,"Page ""Контакты"" appeared"
+Test Case 3,Checking search,,"1.Click on the Search Icon, 2. Enter “TISSOT PRX POWERMATIC 80”, 3. Click on the button “Search”",Displayed only models with this name
+"Test Case 4 ",Checking filter,,1. Click on the filter button and select “По возрастанию цены”,Displayed models in ascending order
+Test Case 5,Checking filter “Бренд”,,1. Click on the button “Бренд” and select “Tag Heuer”,Displayed only models with name “Tag Heuer”
+Test Case 6,"Checking the opening of the cart popup ",,"1. Hover over the clock “Tissot Gentleman Titanium”, 2. Click on the button “В корзину”",Cart popup displayed with item “Tissot Gentleman Titanium”
+Test Case 7,Checking add to cart,,"1. Hover over the clock “Swatch SISTEM BOREAL”, 2. Click on the button “В корзину”, 3.Click on the button “Перейти в корзину” in the shopping cart popup, 4. Сhecking that there are watches with this name in the basket",Displayed models with the name “Swatch SISTEM BOREAL” in basket
+Test Case 8,Checking button the remove item from cart,Open https://swisstime.by/cart/ with one item,"1. Press the button ""Удалить”, 2. The text ""Ваша корзина пуста"" was displayed",Cart page is empty
+Test Case 9,Checking open page “Частые вопросы”,,"1. Hover over the caption “Сервисный центр”, 2. Click on the button ""Частые вопросы""",Page opened “Частые вопросы”
+Test Case 10,Checking filter “Цена”,,"1. Click on the filter  “Цена”, 2. Set the range from 2000 to 4000",Displays products with a price in the specified range
+Test Case 11,Checking the calculation of the total amount in the basket,"There are two items in the cart Tissot T-CLASSIC (5 314,00 руб.) and Tissot T-CLASSIC (8 568,00 руб.)",Sum available prices (5 31400 руб. + 8 56800 руб.),Total expected 13 88200 руб.
+Test Case 12,Checking the opening of the product page,,"1. Hovet over the clock “Tissot Supersport Gent”, 2. Click on the product card",Opened the page with detailed information about the model “Tissot Supersport Gent”
+Test Case 13,Checking the button “Продолжить покупки”,"Open  https://swisstime.by/catalog/filter/gender-is-muzhskie/apply/#card
+","1. Click on the button ""Продолжить покупки""",Opened page “Каталог”
